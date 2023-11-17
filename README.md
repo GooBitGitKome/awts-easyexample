@@ -25,7 +25,7 @@
 - 下記からNodeをダウンロードしインストール．
     [Node.js 18.17](https://nodejs.org/) or later.
 - Solidity (VSCode Extensionのインストール)　下記画像参考
-![[img/20231027214905.png]]
+![Alt text](img/20231027214905.png)
 
 ## バックエンドの作成
 ---
@@ -210,7 +210,7 @@ async function deployContract(){
 
 const [owner, otherAccount] = await ethers.getSigners();
 
-  
+
 
 //deployed using the info based on hardhat.config.ts
 
@@ -273,7 +273,7 @@ await contract.faucet();
 
 テストが完了すると次のような画面が現れます．
 
-![[img/20231027220149.png]]
+![Alt text](img/20231027220149.png)
 
 上記の画面が出れば成功です．
 Lockと書かれている記述部分はサンプルファイルのものも同時にテストしているからです．
@@ -281,7 +281,7 @@ Lockと書かれている記述部分はサンプルファイルのものも同�
 **Caution**
 	次のような画面が出た場合はNodeのバージョンがHardhatに対応していません．
 	
-![[20231027220016.png]]
+![Alt text](20231027220016.png)
 	次のコマンドを使用して，バージョンを合わせてください．
 	
 	`nvm use 18`
@@ -349,7 +349,7 @@ process.exitCode = 1;
 
 次の画面が出たらデプロイが完了です．
 
-![[20231027224340.png]]
+![Alt text](img/20231027224340.png)
 
 お疲れ様でした．次回はシンプルなフロントエンドを作成し，実際にフロントから接続できるかを検証します．
 ## フロントエンドの作成
